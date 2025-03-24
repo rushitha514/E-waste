@@ -34,3 +34,4 @@ pipeline:
                     shell: Sh
                     command: echo "Harness CI"
                   description: executing the ci pipeline
+        delegateSelectors: <+input>
